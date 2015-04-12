@@ -1,0 +1,27 @@
+
+public final class CaseInsensitiveString {
+	
+	private String s;
+	
+	public CaseInsensitiveString(String s){
+		if (s == null){
+			throw new NullPointerException();
+		}
+			this.s = s;
+		}
+	
+	public boolean equals(Object o){
+		return o instanceof CaseInsensitiveString &&
+				 ((CaseInsensitiveString)o).s.equalsIgnoreCase(s); 
+		}
+	
+	
+	public static void main(String[] args){
+		CaseInsensitiveString cis = new CaseInsensitiveString("Polish");
+		String s = "polish";
+		
+	
+	}
+	
+
+}
