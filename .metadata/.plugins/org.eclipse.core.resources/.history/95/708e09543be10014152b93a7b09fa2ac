@@ -19,7 +19,7 @@ public class RemoveDups_1 {
 		LinkedList<Integer> list = new LinkedList<Integer>();
 		list.addLast(1);
 		list.addLast(2);
-		/ testing changes to git repository
+	
 		list.addLast(3);
 		list.addLast(3);
 		list.addLast(3);
